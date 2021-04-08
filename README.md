@@ -1,7 +1,7 @@
 # ADA 6 TOOL SPAM CALL
 
 
-#INSTALTING
+#packages
 pkg update && pkg upgrade
 pkg install bash
 pkg install git
