@@ -81,11 +81,12 @@ then
 clear
     cd $HOME
     apt update && apt upgrade -y
-    pkg update;pkg install python2 -y
+    pkg update -y
+    pkg install python2 -y
     git clone https://github.com/mrvirusrecord/spam2021
     cd spam2021
     pip2 install requests
-    python2 spams.py
+    python2 mvs.py
 fi
 
 if [ $now == "6" ]
